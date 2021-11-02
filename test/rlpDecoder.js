@@ -1,4 +1,5 @@
 const RLPDecoder = artifacts.require("RLPDecoder");
+const helper = artifacts.require("Helper");
 const rlp = require("rlp");
 
 /*
@@ -10,7 +11,7 @@ contract("RLPDecoder", function (/* accounts */) {
 
   let rlpDecoder;
   before(async () => {
-    rlpDecoder = await RLPDecoder.new();
+    rlpDecoder = await helper.deployed();
   });
 
 
