@@ -1,16 +1,27 @@
 {
   "name": "solidity-rlp-decoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple solidity rlp decoder",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "newki",
+  "files": [
+    "contracts",
+    "test"
+  ],
+  "directories": {
+    "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youkchan/solidity-rlp-decoder.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "rlp": "^2.2.7"
   }
