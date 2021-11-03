@@ -1,6 +1,6 @@
 {
   "name": "solidity-rlp-decoder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple solidity rlp decoder",
   "main": "truffle-config.js",
   "directories": {
@@ -9,11 +9,9 @@
   "author": "newki",
   "files": [
     "contracts",
+    "build",
     "test"
   ],
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "truffle test"
   },
@@ -23,6 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "rlp": "^2.2.7"
+    "rlp": "^2.2.7",
+    "solidity-bytes-utils": "^0.8.0"
   }
 }
