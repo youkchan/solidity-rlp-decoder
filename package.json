@@ -1,6 +1,6 @@
 {
   "name": "solidity-rlp-decoder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple solidity rlp decoder",
   "main": "truffle-config.js",
   "directories": {
